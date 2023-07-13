@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background: #fff;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgb(100, 100, 100);
+}
+.container .leftPart {
+  position: relative;
+  background: rgb(18, 31, 31);
+  padding: 40px;
+}
+.leftContentGroup {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+  width: min-content;
+}
+.img {
+  position: relative;
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  clip-path: circle();
+}
+h2 {
+  color: rgb(214, 212, 209);
+  font-size: 2em;
+  margin-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+}
+.delimiter {
+  color: rgb(222, 226, 226);
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+}
+.phone {
+  color: rgb(214, 212, 209);
+  margin-top: 20px;
+}
+.email {
+  color: rgb(214, 212, 209);
+  margin-top: 20px;
+}
+.address {
+  color: rgb(214, 212, 209);
+  margin-top: 20px;
+}
+.title {
+  color: rgb(214, 212, 209);
+  margin-top: 20px;
+}
+.leftContentGroupp {
+  justify-content: space-between;
+  gap: 16px;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #118882;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 10px;
+  justify-content: space-between;
+  gap: 16px;
+}
+.dotEmpty {
+  background-color: #bbb;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 10px;
+  justify-content: space-between;
+  gap: 16px;
+}
+.container .rightPart {
+  position: relative;
+  background: rgb(218, 214, 214);
+  padding: 40px;
+}
+.rightContentGroup {
+  color: rgb(20, 20, 41);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 10px;
+  font-size: 180%;
+}
+.rightContentGroupp {
+  color: rgb(20, 20, 41);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-family: "Times New Roman", Times, serif;
+}
+.rightContentGroupp h3 {
+  margin: 10px;
+  padding: 10px;
+  font-size: 170%;
+  padding-bottom: 30px;
+  border-bottom: 2px solid rgb(20, 20, 41);
+  width: 90px;
+  height: 3px;
+  margin-bottom: 24px;
+}
+.rightContentGrouppp h3 {
+  margin: 10px;
+  padding: 10px;
+  font-size: 170%;
+  padding-bottom: 30px;
+  border-bottom: 2px solid rgb(20, 20, 41);
+  width: 90px;
+  height: 3px;
+  margin-bottom: 3px;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  margin: 40px 0;
+}
+.yearCompany {
+  min-width: 150px;
+}
+h5 {
+  text-transform: uppercase;
+  color: rgb(128, 126, 126);
+  font-weight: 600;
+}
+.rightContentGroupppp .title {
+  color: rgb(20, 20, 41);
+  margin-top: 10px;
+}
+.circles {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
